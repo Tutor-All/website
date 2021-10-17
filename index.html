@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <title>tutor all</title>
+     <link href="main.css" rel="stylesheet" type=text/css />
+	   <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+
+     <script>
+  window.addEventListener("resize", getTemplate);
+
+CurrentPage = 'index.html';
+
+window.addEventListener("resize", getTemplate);
+
+CurrentPage = 'DesktopPage';
+
+function getTemplate() {
+  if (screen.width >= 767 && CurrentPage != 'DesktopPage') {
+      return window.location.replace("index.html");
+  }
+
+  if (screen.width < 767 && CurrentPage != 'MobilePage') {
+      return window.location.replace("mobile.html");
+  }
+}
+
+getTemplate();
+</script>
+  </head>
+  <body>
+    <img src="tutorallheader.png" class="imgcover" alt="">
+      <img src="about1.png"class="imgcover" alt="">
+    <table>
+      <tr>
+        <td> <a href="https://forms.gle/68XZhK4Ro3izVb9FA"><img src="gettutored.png" alt=""></a></td>
+          <td> <a href="https://forms.gle/PMMoZAMkUc1AE1i46"><img src="beatutor.png" alt=""></a></td>
+      </tr>
+    </table>
+  </body>
+</html>

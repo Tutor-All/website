@@ -1,0 +1,24 @@
+html, body, a, img {
+  padding: 0%;
+  margin: 0%;
+  display:block;
+  font-family:Arial;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.imgcover {
+  width:100%;
+  height:auto;
+  padding:0%;
+  margin:0%;
+}
+td, tr, img  {
+  padding: 0px;
+  margin: 0px;
+  border:0px;
+}
+table, td, tr {
+  border-collapse: collapse;
+}
